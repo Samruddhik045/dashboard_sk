@@ -1,0 +1,89 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "CNAPP Dashboard",
+      "widgets": [
+        {
+          "id": 1,
+          "name": "Trip & Namespace Specific Alerts",
+          "type": "bar",
+          "data": {
+            "labels": ["Critical", "High", "Medium", "Low"],
+            "values": [12, 19, 3, 5],
+            "label": "Alerts by Severity"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Worldwide Alerts",
+          "type": "pie",
+          "data": {
+            "labels": ["North America", "Europe", "Asia", "Others"],
+            "values": [45, 30, 15, 10]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": 3,
+          "name": "Registry Scan",
+          "type": "status",
+          "data": {
+            "value": "98%",
+            "label": "Compliance"
+          }
+        },
+        {
+          "id": 4,
+          "name": "Image Risk Assessment",
+          "type": "pie",
+          "data": {
+            "labels": ["Critical", "High", "Medium", "Low"],
+            "values": [5, 12, 8, 25]
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cloud Accounts",
+      "widgets": [
+        {
+          "id": 5,
+          "name": "Account Risk Assessment",
+          "content": "Connected (2) Not Connected (3)"
+        },
+        {
+          "id": 6,
+          "name": "LATO Total Vulnerabilities",
+          "type": "status",
+          "data": {
+            "value": "99%",
+            "label": "Total"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ads Widget",
+      "widgets": [
+        {
+          "id": 7,
+          "name": "Ads Widget 1",
+          "content": "Advertisement content 1"
+        },
+        {
+          "id": 8,
+          "name": "Ads Widget 2",
+          "content": "Advertisement content 2"
+        }
+      ]
+    }
+  ]
+}
